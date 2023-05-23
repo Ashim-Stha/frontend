@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +49,7 @@
   text-decoration: none;
   color: whitesmoke;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .nav-list li a:hover {
@@ -94,6 +96,7 @@
   border-radius: 130px;
   display: block;
   margin: auto;
+  margin-bottom: 55px;
 }
 
 .text-big {
@@ -117,10 +120,11 @@
   padding: 2px 6px;
 }
 
-.rightsec {
+.section {
   max-width: 80%;
   margin: auto;
   display: flex;
+  font-family: "Pangolin", cursive;
 }
 
 .sec1 {
@@ -130,4 +134,42 @@
 
 .para {
   padding: 0px 50px;
+}
+
+.left {
+  flex-direction: row-reverse;
+}
+
+.contact {
+  background-color: #eef1f3;
+  height: 58vh;
+}
+
+.text-center {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Pangolin", cursive;
+}
+
+.form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.forminput {
+  width: 100%;
+  font-size: 17px;
+  padding: 5px 2px;
+  margin: 13px 7px;
+  border-radius: 9px;
+}
+
+.dark {
+  color: black;
+  border-color: black;
+  text-align: center;
+}
+
+.text-footer {
+  text-align: center;
 }
