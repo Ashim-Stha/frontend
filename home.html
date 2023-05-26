@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Home.css" />
     <title>Search text in pdf</title>
   </head>
   <body>
@@ -14,15 +14,53 @@
         <li><a href="home">Home</a></li>
         <li><a href="about">About</a></li>
         <li><a href="services">Services</a></li>
-        <li><a href="contact">Contact Us</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
-      <div class="rightNav">
-        <input type="text" name="search" id="search" />
-        <button class="btn btn-sm">Search</button>
-      </div>
     </nav>
+    <section class="home">
+      <div class="searchSec">
+        <!-- <input type="text" name="search" id="search" />
+        <button class="btn btn-sm">Search</button> -->
+        <!-- <input type="text" size="60" name="search" id="search" />
+        <button class="btn">Search</button> -->
+        <form role="search" id="form">
+          <input
+            type="search"
+            id="query"
+            name="q"
+            placeholder="Search..."
+            aria-label="Search through site content"
+          />
+          <button>
+            <svg viewBox="0 0 1024 1024">
+              <path
+                class="path1"
+                d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"
+              ></path>
+            </svg>
+          </button>
+        </form>
+      </div>
 
-    <section class="background firstSection">
+      <div class="content home">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
+          odio, officia iure eos vitae debitis nesciunt ut beatae fugiat nulla
+          nihil libero animi consectetur? Voluptatem consequatur fugiat dicta
+          harum nulla nihil odit aliquid maiores, fuga facilis quis cumque vel
+          sed. Rem pariatur adipisci veritatis vero impedit ea sequi,
+          dignissimos saepe rerum libero deleniti distinctio? Cumque aut iste
+          nihil, accusantium porro nam, impedit fugit excepturi atque voluptate
+          reiciendis earum placeat libero dolorem numquam aspernatur molestiae
+          illo. Natus vitae dolor temporibus libero rerum reprehenderit
+          recusandae voluptatibus blanditiis, quaerat velit rem! Voluptatem vero
+          quas eum necessitatibus dolores ab doloribus esse eius laudantium
+          ratione?
+        </p>
+      </div>
+    </section>
+
+    <!-- <section class="background firstSection">
       <div class="box-main">
         <div class="firstHalf">
           <p class="text-big">
@@ -124,6 +162,6 @@
           <p class="text-footer">Copyright &copy; 2023-All rights reserved</p>
         </footer>
       </div>
-    </section>
+    </section> -->
   </body>
 </html>

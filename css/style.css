@@ -30,13 +30,13 @@
 .nav-list {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 70%;
   /* background-color: antiquewhite; */
 }
 
 .rightNav {
   /* background-color: aqua; */
-  width: 50%;
+  width: 30%;
   text-align: right;
 }
 
@@ -96,7 +96,7 @@
   border-radius: 130px;
   display: block;
   margin: auto;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
 }
 
 .text-big {
@@ -142,7 +142,7 @@
 
 .contact {
   background-color: #eef1f3;
-  height: 58vh;
+  height: 80vh;
 }
 
 .text-center {
@@ -172,4 +172,10 @@
 
 .text-footer {
   text-align: center;
+}
+
+@media only screen and (max-width: 1006px) {
+  .nav-list {
+    flex-direction: column;
+  }
 }
