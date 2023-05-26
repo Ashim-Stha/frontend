@@ -58,6 +58,22 @@
           ratione?
         </p>
       </div>
+      <center>
+        <div class="container">
+          pkaspdkpskdpkspks Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Rerum recusandae dolorum quod hello laboriosam quis nihil
+          facilis incidunt doloremque magnam culpa inventore, vel debitis enim
+          velit quasi sunt voluptas officiis veniam tempore deserunt dolor
+          assumenda numquam est quidem! Nemo asperiores temporibus quasi
+          accusantium et, distinctio veritatis facilis veniam exercitationem
+          culpa libero minus voluptatum error autem, explicabo rem, nesciunt ut!
+          Dolorum molestias maxime neque id ipsum eveniet sapiente laudantium
+          modi dolorem at, dolore et sequi dicta eius ullam ab repudiandae animi
+          nemo est! Laborum laudantium facilis, quam assumenda voluptatum
+          possimus corporis maiores veritatis vel earum delectus voluptate quos
+          recusandae sit omnis non?lorem10000
+        </div>
+      </center>
     </section>
 
     <!-- <section class="background firstSection">
@@ -164,4 +180,20 @@
       </div>
     </section> -->
   </body>
+  <script>
+    const f = document.getElementById("form");
+    const q = document.getElementById("query");
+    // const google = "https://www.google.com/search?q=site%3A+";
+    // const site = "pagedart.com";
+
+    function submitted(event) {
+      event.preventDefault();
+      // const url = google + site + "+" + q.value;
+      const url = "https://www.google.com";
+      const win = window.open(url, "_blank");
+      win.focus();
+    }
+
+    f.addEventListener("submit", submitted);
+  </script>
 </html>
