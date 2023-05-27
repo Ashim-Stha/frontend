@@ -19,12 +19,9 @@
     </nav>
     <section class="home">
       <div class="searchSec">
-        <!-- <input type="text" name="search" id="search" />
-        <button class="btn btn-sm">Search</button> -->
-        <!-- <input type="text" size="60" name="search" id="search" />
-        <button class="btn">Search</button> -->
         <form role="search" id="form">
           <input
+            class="inputt"
             type="search"
             id="query"
             name="q"
@@ -42,158 +39,116 @@
         </form>
       </div>
 
-      <div class="content home">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-          odio, officia iure eos vitae debitis nesciunt ut beatae fugiat nulla
-          nihil libero animi consectetur? Voluptatem consequatur fugiat dicta
-          harum nulla nihil odit aliquid maiores, fuga facilis quis cumque vel
-          sed. Rem pariatur adipisci veritatis vero impedit ea sequi,
-          dignissimos saepe rerum libero deleniti distinctio? Cumque aut iste
-          nihil, accusantium porro nam, impedit fugit excepturi atque voluptate
-          reiciendis earum placeat libero dolorem numquam aspernatur molestiae
-          illo. Natus vitae dolor temporibus libero rerum reprehenderit
-          recusandae voluptatibus blanditiis, quaerat velit rem! Voluptatem vero
-          quas eum necessitatibus dolores ab doloribus esse eius laudantium
-          ratione?
-        </p>
+      <button class="accordion"><h4>Filters</h4></button>
+      <div class="panel">
+        <div class="filteritems">
+          <ul class="check">
+            <p>Level:</p>
+            <li>
+              <label class="lab" for="ioe">IOE</label>
+              <input class="check" type="checkbox" name="ioe" id="ioe" />
+            </li>
+            <button class="btn" onclick="clicked()">SUBMIT</button>
+          </ul>
+
+          <ul class="check">
+            <p>Faculty:</p>
+            <li>
+              <label class="lab" style="margin-right: 0px" for="BCE">BCE</label
+              ><input class="check" type="checkbox" name="BCE" id="BCE" />
+            </li>
+
+            <li>
+              <label class="lab" for="BCT">BCT</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" style="margin-right: 5px" for="BEI">BEI</label
+              ><input class="check" type="checkbox" name="BEI" id="BEI" />
+            </li>
+            <li>
+              <label class="lab" style="padding: 10px" for="BME">BME</label
+              ><input class="check" type="checkbox" name="BME" id="BME" />
+            </li>
+          </ul>
+          <ul class="check">
+            <p>Semester:</p>
+            <li>
+              <label class="lab" for="ioe">I/I</label>
+              <input
+                class="check"
+                type="checkbox"
+                onclick="clicked()"
+                name="ioe"
+                id="ioe"
+              />
+            </li>
+            <li>
+              <label class="lab" for="BCE">I/II</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" for="BCE">II/I</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" for="BCE">III/I</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" for="BCE">III/II</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" for="BCE">IV/I</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+            <li>
+              <label class="lab" for="BCE">IV/II</label
+              ><input class="check" type="checkbox" name="BCT" id="BCT" />
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <div class="content"></div>
+
       <center>
         <div class="container">
-          pkaspdkpskdpkspks Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Rerum recusandae dolorum quod hello laboriosam quis nihil
-          facilis incidunt doloremque magnam culpa inventore, vel debitis enim
-          velit quasi sunt voluptas officiis veniam tempore deserunt dolor
-          assumenda numquam est quidem! Nemo asperiores temporibus quasi
-          accusantium et, distinctio veritatis facilis veniam exercitationem
-          culpa libero minus voluptatum error autem, explicabo rem, nesciunt ut!
-          Dolorum molestias maxime neque id ipsum eveniet sapiente laudantium
-          modi dolorem at, dolore et sequi dicta eius ullam ab repudiandae animi
-          nemo est! Laborum laudantium facilis, quam assumenda voluptatum
-          possimus corporis maiores veritatis vel earum delectus voluptate quos
-          recusandae sit omnis non?lorem10000
+          <p id="year">Year:</p>
+          <img src="img/ques.png" alt="" class="quest" />
         </div>
       </center>
     </section>
 
-    <!-- <section class="background firstSection">
-      <div class="box-main">
-        <div class="firstHalf">
-          <p class="text-big">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem
-            perferendis ad voluptate corporis. Ullam tempora animi excepturi
-          </p>
-          <p class="text-small">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-            cupiditate quidem atque repellat maiores totam, ipsa error cumque?
-            Voluptatibus ipsam neque ipsa, porro tenetur aut fugit doloremque
-            mollitia, inventore, culpa hic eaque!
-          </p>
-          <div class="buttons">
-            <button class="btn">Subscribe</button>
-            <button class="btn">Watch</button>
-          </div>
-        </div>
-        <div class="secondhalf">
-          <img src="img/323408.jpg" alt="image" />
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="para">
-        <p class="sec1 text-big">Hello blah blahblah</p>
-        <p class="sec2 text-small">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi
-          laboriosam ipsam hic inventore adipisci praesentium Lorem ipsum, dolor
-          sit amet consectetur adipisicing elit. Commodi placeat error voluptas
-          eius iure repudiandae ad aliquid quam vitae praesentium tempora,
-          architecto impedit perspiciatis reiciendis natus deleniti esse saepe
-          ipsum odio officia quaerat animi? Voluptates enim tempore itaque,
-          assumenda iste repudiandae iusto magnam laboriosam. repellendus facere
-          voluptas officia sed reprehenderit, magni animi alias consequatur sit
-          ea assumenda, distinctio, expedita architecto!
-        </p>
-      </div>
-      <div class="secondhalf">
-        <img src="img/323408.jpg" alt="" />
-      </div>
-    </section>
-
-    <section class="section left">
-      <div class="para">
-        <p class="sec1 text-big">Hello blah blahblah</p>
-        <p class="sec2 text-small">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi
-          laboriosam ipsam hic inventore adipisci praesentium Lorem ipsum, dolor
-          sit amet consectetur adipisicing elit. Commodi placeat error voluptas
-          eius iure repudiandae ad aliquid quam vitae praesentium tempora,
-          architecto impedit perspiciatis reiciendis natus deleniti esse saepe
-          ipsum odio officia quaerat animi? Voluptates enim tempore itaque,
-          assumenda iste repudiandae iusto magnam laboriosam. repellendus facere
-          voluptas officia sed reprehenderit, magni animi alias consequatur sit
-          ea assumenda, distinctio, expedita architecto!
-        </p>
-      </div>
-      <div class="secondhalf">
-        <img src="img/323408.jpg" alt="" />
-      </div>
-    </section>
-
-    <section class="contact">
-      <hr />
-      <h2 class="text-center">Contact Us</h2>
-      <div class="form">
-        <input
-          class="forminput"
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Enter your name"
-        />
-        <input
-          class="forminput"
-          type="text"
-          name="phone"
-          id="phone"
-          placeholder="Enter your phone"
-        />
-        <input
-          class="forminput"
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Enter your email"
-        />
-        <textarea
-          class="forminput"
-          name="textarea"
-          id="textarea"
-          cols="20"
-          rows="5"
-          placeholder="Write about yourself"
-        ></textarea>
-        <button class="btn dark">Submit</button>
-        <footer>
-          <p class="text-footer">Copyright &copy; 2023-All rights reserved</p>
-        </footer>
-      </div>
-    </section> -->
+    <script src="year.js"></script>
+    <script src="accordion.js"></script>
+    <script src="data.js"></script>
+    <script src="search.js"></script>
   </body>
   <script>
-    const f = document.getElementById("form");
-    const q = document.getElementById("query");
-    // const google = "https://www.google.com/search?q=site%3A+";
-    // const site = "pagedart.com";
+    // let vall = document.getElementById("ioe");
+    // console.log(vall.checked);
 
-    function submitted(event) {
-      event.preventDefault();
-      // const url = google + site + "+" + q.value;
-      const url = "https://www.google.com";
-      const win = window.open(url, "_blank");
-      win.focus();
-    }
+    // function clicked() {
+    //   console.log("clicked");
+    //   vall.checked = true;
+    // }
+  </script>
 
-    f.addEventListener("submit", submitted);
+  <script>
+    // const f = document.getElementById("form");
+    // const q = document.getElementById("query");
+    // // const google = "https://www.google.com/search?q=site%3A+";
+    // // const site = "pagedart.com";
+    // function submitted(event) {
+    //   event.preventDefault();
+    //   // const url = google + site + "+" + q.value;
+    //   const url = "https://www.google.com";
+    //   const win = window.open(url, "_blank");
+    //   win.focus();
+    // }
+
+    // f.addEventListener("submit", submitted);
   </script>
 </html>

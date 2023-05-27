@@ -14,13 +14,6 @@
   padding: 2px 2px;
 }
 
-/* .logo {
-  width: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .logo img {
   /* width: 38%; */
   height: 40px;
@@ -34,12 +27,6 @@
   width: 100%;
   /* background-color: antiquewhite; */
 }
-
-/* .rightNav {
-  /* background-color: aqua; */
-/* width: 30%;
-  text-align: right;
-} */
 
 .nav-list li {
   list-style: none;
@@ -58,37 +45,15 @@
   color: burlywood;
 }
 
-/* #search {
-  padding: 8px;
-  margin: 1px;
-  border-radius: 10px;
-} */
-
 .background {
   background: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: lighten;
 }
 
-/* .btn {
-  padding: 5px 5px;
-  margin: 5px 2px;
-  border: 2px solid black;
-  border-radius: 13px;
-  font-size: 15px;
-  background: none;
-  color: black;
-  cursor: pointer;
-}
-
-.btn-sm {
-  vertical-align: center;
-  padding: 2px 6px;
-} */
-
 .home {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-color: antiquewhite;
 }
 
@@ -96,7 +61,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 4%;
+  padding-top: 4%;
   /* margin-left: 45px; */
 }
 
@@ -108,37 +73,41 @@
 
 .btn {
   padding: 0px 10px;
-  font-size: 22px;
-  margin: 8px 14px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 125px;
+  /* margin: 8px 14px; */
+  color: black;
+  border: 2px solid white;
   border-radius: 10px;
 }
 
-/* body {
-  background-color: #3745c2;
-  margin: 200px 40%;
-} */
+.btn:hover {
+  background-color: rgb(116, 116, 194);
+}
 
-form {
-  background-color: #85808e;
+#form {
+  background-color: #eeecf0;
   width: 800px;
   height: 60px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 2px solid grey;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-input {
+.inputt {
   all: unset;
   font: 22px system-ui;
-  color: #fff;
+  color: black;
   height: 100%;
   width: 100%;
   padding: 6px 10px;
 }
 
 ::placeholder {
-  color: #fff;
+  color: black;
   opacity: 0.7;
 }
 
@@ -147,21 +116,21 @@ svg {
   fill: currentColor;
   width: 24px;
   height: 24px;
-  padding: 10px;
+  padding: 2px;
 }
 
 button {
   all: unset;
   cursor: pointer;
   width: 44px;
-  height: 44px;
+  height: 26px;
 }
 
 .content {
   margin-top: 52px;
 }
 
-div.container {
+.container {
   height: 10vh;
   width: 50%;
   margin: auto;
@@ -171,6 +140,7 @@ div.container {
   text-align: justify;
 }
 
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -188,4 +158,63 @@ div.container {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.year {
+  font-weight: bolder;
+}
+
+/* accordion */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  /* padding: 18px; */
+  /* width: 100%; */
+  margin-left: 25%;
+  margin-top: 8px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgb(215, 209, 200);
+  display: none;
+  margin-left: 25%;
+  /* margin: auto; */
+  overflow: hidden;
+  width: 25%;
+}
+
+.filteritems {
+  display: flex;
+  flex-direction: row;
+}
+
+/* input[type="checkbox"] {
+  appearance: checkbox !important;
+} */
+/* input.checkbox {
+  display: inline-block;
+} */
+
+.check {
+  list-style: none;
+  margin-top: 3px;
+  margin-right: 22px;
+  max-width: fit-content;
+}
+
+.lab {
+  padding: 12px;
 }
